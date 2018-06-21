@@ -1,6 +1,6 @@
 var express = require('express'),
     app = express(),
-    port = process.env.PORT || 3000;
+    port = process.env.PORT || 80;
 
     app.get('/', function(req, res){
         res.send("hello from aws");
