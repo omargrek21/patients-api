@@ -7,5 +7,5 @@ var express = require('express'),
     });
 
     app.listen(port, function(){
-        console.log("APP IS RUNNING ON PORT " + process.env.PORT);
+        console.log("APP IS RUNNING ON PORT " + port);
     })
